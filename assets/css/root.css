@@ -1,1 +1,102 @@
-:root {}
+:root {
+    --f-exs: 9px;
+    --f-3xs: 10px;
+    --f-2xs: 12px;
+    --f-xs: 14px;
+    --f-sm: 15px;
+    --f-base: 16px;
+    --f-lg: 17px;
+    --f-xl: 20px;
+    --f-2xl: 40px;
+    --f-3xl: 65px;
+    --default-color: white;
+    --primary-color: #36BEFF;
+    --secondary-color: #9F9F9F;
+    --tertiary-color: #939393;
+    --low-opacity-bg: #475C83;
+    --dark: black;
+}
+
+.f-exs {
+    font-size: var(--f-exs);
+}
+
+.f-3xs {
+    font-size: var(--f-3xs);
+}
+
+.f-2xs {
+    font-size: var(--f-2xs);
+}
+
+.f-xs {
+    font-size: var(--f-xs);
+}
+
+.f-sm {
+    font-size: var(--f-sm);
+}
+
+.f-base {
+    font-size: var(--f-base);
+}
+
+.f-lg {
+    font-size: var(--f-lg);
+}
+
+.f-xl {
+    font-size: var(--f-xl);
+}
+
+.f-2xl {
+    font-size: var(--f-2xl);
+}
+
+.f-3xl {
+    font-size: var(--f-3xl);
+}
+
+.text-default {
+    color: var(--default-color);
+}
+
+.text-primary {
+    color: var(--primary-color);
+}
+
+.text-secondary {
+    color: var(--secondary-color);
+}
+
+.text-tertiary {
+    color: var(--tertiary-color);
+}
+
+.text-dark {
+    color: var(--dark);
+}
+
+.bg-default {
+    background-color: var(--default-color);
+}
+
+.bg-primary {
+    background-color: var(--primary-color);
+}
+
+.bg-secondary {
+    background-color: var(--secondary-color);
+}
+
+.bg-tertiary {
+    background-color: var(--tertiary-color);
+}
+
+.bg-opacity-half {
+    background-color: var(--low-opacity-bg);
+}
+
+.bg-dark {
+    background-color: var(--dark);
+}
