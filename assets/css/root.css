@@ -15,6 +15,8 @@
     --tertiary-color: #939393;
     --low-opacity-bg: #475C83;
     --dark: black;
+    --prmary-border: #969696;
+    --secondary-boder: #313131;
 }
 
 .f-exs {
@@ -99,4 +101,40 @@
 
 .bg-dark {
     background-color: var(--dark);
+}
+
+.border-default {
+    border: 1px solid var(--primary-color);
+}
+
+.border-light {
+    border: 1px solid var(--default-color);
+}
+
+.border-primary {
+    border: 1px solid var(--prmary-border);
+}
+
+.border-secondary {
+    border: 1px solid var(--secondary-boder);
+}
+
+.primary-btn-hover:hover {
+    border: 1px solid var(--primary-color);
+    background-color: var(--primary-color);
+    color: var(--default-color);
+    transition: 300ms ease-in-out;
+}
+
+.secondary-btn-hover:hover {
+    border: 1px solid var(--default-color);
+    background-color: transparent;
+    color: var(--default-color);
+    transition: 300ms ease-in-out;
+}
+
+@media (max-width:640px) {
+    :root {
+        --f-2xl: 35px;
+    }
 }
